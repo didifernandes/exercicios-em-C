@@ -2,10 +2,10 @@
 
 int main() {
 
-int bat_ano;
-printf("Digite a sua idade para saber quantos batimentos você ja teve: ");
+int batidas_ano;
+printf("Digite a sua idade para saber quantos batimentos vocï¿½ ja teve: ");
 scanf("%d", &bat_ano);
-printf("A quantidade de batimentos vai ser " "%d", bat_ano * 365 * 24 * 60 * 60); 
+printf("A quantidade de batimentos vai ser " "%d", batidas_ano * 365 * 24 * 60 * 60); 
 
 return 0;
 }
